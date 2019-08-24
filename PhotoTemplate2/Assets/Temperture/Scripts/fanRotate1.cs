@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fanRotate : MonoBehaviour
+public class fanRotate1 : MonoBehaviour
 {
     public float spinspeed = -1000.0f;
     // Start is called before the first frame update

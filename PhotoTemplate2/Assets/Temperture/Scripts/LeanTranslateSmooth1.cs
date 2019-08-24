@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Lean.Touch
 {
     // This script allows you to transform the current GameObject with smoothing
-    public class LeanTranslateSmooth : LeanTranslate
+    public class LeanTranslateSmooth1 : LeanTranslate
     {
         [Tooltip("How smoothly this object moves to its target position")]
         public float Dampening = 10.0f;
