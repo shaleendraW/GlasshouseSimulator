@@ -1495,8 +1495,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.04, z: 0.02}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.016, y: 0.045, z: 0.02}
+  m_Center: {x: -0.003, y: -0.005, z: 0}
 --- !u!1 &65941342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3407,33 +3407,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: DHT22
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.05030895
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.038944982
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.1510547
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.13758391
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9304736
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.17188087
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.29282507
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_RootOrder
@@ -3441,15 +3445,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -193.844
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 37.586
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 201.554
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 4f9e0c6e9a07538499acb1d511dd7ed0, type: 3}
       propertyPath: m_LocalScale.x
@@ -22917,7 +22921,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f331f751bf0c64006a323e968b297f5a,
+      objectReference: {fileID: 21300000, guid: 33b9becbfddfcec41b27b620d23cdea9,
         type: 3}
     - target: {fileID: 114275065772015834, guid: 7be9118823f4042f39464a6c367b5c41,
         type: 3}
@@ -26650,7 +26654,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1bb86bbdc753a0643862c643dc7a1cfa,
+      objectReference: {fileID: 21300000, guid: cfb388b04c1f471468dea6c411bb0646,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d14ce3519a5e7d4cbb80d624febaecf, type: 3}
@@ -29642,7 +29646,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f331f751bf0c64006a323e968b297f5a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33b9becbfddfcec41b27b620d23cdea9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
