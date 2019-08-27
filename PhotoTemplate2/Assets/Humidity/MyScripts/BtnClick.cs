@@ -6,6 +6,7 @@ public class BtnClick : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject panel;
+
     bool count;
     void Start()
     {
@@ -15,6 +16,7 @@ public class BtnClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         
     }
      public void hidepannel()
@@ -31,4 +33,6 @@ public class BtnClick : MonoBehaviour
 
         }
     }
+
+
 }
