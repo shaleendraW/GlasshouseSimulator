@@ -33,7 +33,7 @@ public class ShowvalueScript : MonoBehaviour
         if (slidervalue == 30)
         {
 
-           
+            activate_sensoreadings.activateBool = true;
             fanRotate.rotatebool = true;
             
            
@@ -47,6 +47,7 @@ public class ShowvalueScript : MonoBehaviour
         {
             setactivate.activateBool = false;
             fanRotate.rotatebool = false;
+            activate_sensoreadings.activateBool = false;
         }
 
     }
