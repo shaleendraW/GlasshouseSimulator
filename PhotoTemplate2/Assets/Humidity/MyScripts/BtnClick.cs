@@ -5,9 +5,12 @@ using UnityEngine;
 public class BtnClick : MonoBehaviour
 {
     // Start is called before the first frame update
+<<<<<<< HEAD
     public GameObject panel;
 
     bool count;
+=======
+>>>>>>> parent of 658250d... hide item pannel
     void Start()
     {
         
@@ -19,6 +22,7 @@ public class BtnClick : MonoBehaviour
 
         
     }
+<<<<<<< HEAD
      public void hidepannel()
     {
         if (count == true)
@@ -35,4 +39,6 @@ public class BtnClick : MonoBehaviour
     }
 
 
+=======
+>>>>>>> parent of 658250d... hide item pannel
 }
