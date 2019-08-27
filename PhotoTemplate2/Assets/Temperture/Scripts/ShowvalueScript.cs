@@ -8,11 +8,12 @@ using UnityEngine.EventSystems;
 
 public class ShowvalueScript : MonoBehaviour
 {
+
     
-    public GameObject objectToDisable1;
     public static bool disabled = false;
     public int slidervalue;
-    
+
+
     Text celciusText;
 
     void Start()
@@ -28,20 +29,28 @@ public class ShowvalueScript : MonoBehaviour
     }
     void Update()
     {
-            
-            if (slidervalue == 30)
-            {
-                objectToDisable1.SetActive(true);
-              
-             }
-            else
-            {
-                objectToDisable1.SetActive(false);
+        print(slidervalue);
+        if (slidervalue == 30)
+        {
 
-            }
+           
+            fanRotate.rotatebool = true;
+            
+           
+
+        }
+        else if (slidervalue == 15)
+        {
+            setactivate.activateBool = true;
+        }
+        else
+        {
+            setactivate.activateBool = false;
+            fanRotate.rotatebool = false;
+        }
 
     }
 
-  
-   
+
+
 }
