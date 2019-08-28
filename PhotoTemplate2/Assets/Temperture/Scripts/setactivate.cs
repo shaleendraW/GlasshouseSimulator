@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class setactivate : MonoBehaviour
 {
-    public GameObject Heaterpanel;
+    public GameObject Heaterpanel,simulationModel;
   
     public static bool  activateBool = false;
     // Start is called before the first frame update
@@ -17,10 +17,17 @@ public class setactivate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(activateBool)
+        if (activateBool)
+        {
             Heaterpanel.SetActive(true);
+            simulationModel.SetActive(true);
+        }
         else
+        {
             Heaterpanel.SetActive(false);
+            simulationModel.SetActive(true);
+
+        }
     }
 
     // get distance between two object
