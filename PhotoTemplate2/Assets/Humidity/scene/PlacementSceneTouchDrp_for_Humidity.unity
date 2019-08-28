@@ -4535,6 +4535,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 20180911 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3683435394623908671, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3681472708563248155, guid: ba2cf0cdc67036549b6b74d19978a6db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4613,6 +4618,31 @@ PrefabInstance:
     - target: {fileID: 992908470, guid: ba2cf0cdc67036549b6b74d19978a6db, type: 3}
       propertyPath: m_Size.z
       value: 1.2730293
+      objectReference: {fileID: 0}
+    - target: {fileID: 3150223233016649920, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682969332091620025, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3682820864522949459, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926447082077016797, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225642784048263552, guid: ba2cf0cdc67036549b6b74d19978a6db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba2cf0cdc67036549b6b74d19978a6db, type: 3}
@@ -4934,7 +4964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1585551851
 Transform:
   m_ObjectHideFlags: 0
