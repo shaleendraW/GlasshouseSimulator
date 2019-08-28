@@ -12,7 +12,7 @@ public class BtnClick : MonoBehaviour
 
     void Start()
     {
-        
+        count = true;
     }
 
     // Update is called once per frame
