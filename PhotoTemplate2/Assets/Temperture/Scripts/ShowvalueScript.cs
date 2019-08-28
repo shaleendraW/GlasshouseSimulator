@@ -34,7 +34,7 @@ public class ShowvalueScript : MonoBehaviour
         {
 
             activate_sensoreadings.activateBool = true;
-            fanRotate.rotatebool = true;
+            fanRotate_temp.rotatebool = true;
             
            
 
@@ -46,7 +46,7 @@ public class ShowvalueScript : MonoBehaviour
         else
         {
             setactivate.activateBool = false;
-            fanRotate.rotatebool = false;
+            fanRotate_temp.rotatebool = false;
             activate_sensoreadings.activateBool = false;
         }
 
