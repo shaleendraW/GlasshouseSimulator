@@ -32,9 +32,9 @@ public class showvalueScript_temp : MonoBehaviour
         print(slidervalue);
         if (slidervalue == 30)
         {
-            
-            
-           
+
+            activate_sensoreadings.activateBool = true;
+          
 
         }
         else if (slidervalue == 15)
@@ -43,7 +43,7 @@ public class showvalueScript_temp : MonoBehaviour
         }
         else
         {
-           
+            activate_sensoreadings.activateBool = false;
         }
 
     }
