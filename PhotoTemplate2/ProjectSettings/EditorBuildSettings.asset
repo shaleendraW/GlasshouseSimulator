@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Temperture/Scence/PlacementSceneTouchDrp_for_Temperture.unity
     guid: 7bd50d2aba4558f48b7bde3c4f0882fa
+  - enabled: 1
+    path: Assets/light/Scence/PlacementSceneTouchDrp_for_Light.unity
+    guid: b88869bbf9b30fd43ac8084d387baf99
   m_configObjects: {}
