@@ -975,6 +975,12 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &278084620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5308045394145407181, guid: 54ce225d2254e7e458372732a08f5a80,
+    type: 3}
+  m_PrefabInstance: {fileID: 7070124194892962116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4945,6 +4951,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1585551851}
   - component: {fileID: 1585551852}
+  - component: {fileID: 1585551853}
   m_Layer: 9
   m_Name: AR Placed Item3
   m_TagString: Untagged
@@ -4986,6 +4993,19 @@ MonoBehaviour:
   buttonConnection: {fileID: 95824714}
   isRotationAllowed: 0
   isAutoRotateOn: 1
+--- !u!114 &1585551853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585551850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8113ef8bf11efbb4d8341763835cdef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoke: {fileID: 278084620}
 --- !u!1 &1673327423
 GameObject:
   m_ObjectHideFlags: 0
@@ -5941,6 +5961,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: 20180911 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5836683287453762354, guid: 54ce225d2254e7e458372732a08f5a80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308045394145407181, guid: 54ce225d2254e7e458372732a08f5a80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5839224312035904534, guid: 54ce225d2254e7e458372732a08f5a80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5995,11 +6025,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.4350002
-      objectReference: {fileID: 0}
-    - target: {fileID: 5308045394145407181, guid: 54ce225d2254e7e458372732a08f5a80,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ce225d2254e7e458372732a08f5a80, type: 3}

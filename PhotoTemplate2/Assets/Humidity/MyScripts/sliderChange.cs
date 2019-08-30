@@ -26,22 +26,30 @@ public class sliderChange : MonoBehaviour
         if (RHslider > 80)
         {
             fanRotate.rotatebool = true;
+            enableSmoke.enablesmoke = false;
             fanRotate.speed = -1500.0f;
 
         }
         else if(RHslider > 70)
         {
             fanRotate.rotatebool = true;
+            enableSmoke.enablesmoke = false;
             fanRotate.speed = -1000.0f;
         }
         else if (RHslider > 60)
         {
             fanRotate.rotatebool = true;
+            enableSmoke.enablesmoke = false;
             fanRotate.speed = -500.0f;
+        }
+        else if(RHslider > 20 && RHslider < 60)
+        {
+            enableSmoke.enablesmoke = true;
         }
         else
         {
             fanRotate.rotatebool = false;
+            enableSmoke.enablesmoke = false;
         }
     }
 }
