@@ -19,5 +19,8 @@ public class enableSmoke : MonoBehaviour
     {
        if(enablesmoke)
         smoke.gameObject.SetActive(true);
+       else
+            smoke.gameObject.SetActive(false);
+
     }
 }
