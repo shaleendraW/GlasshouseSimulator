@@ -45,6 +45,7 @@ public class sliderChange : MonoBehaviour
         else if(RHslider > 20 && RHslider < 60)
         {
             enableSmoke.enablesmoke = true;
+            fanRotate.speed = -50.0f;
         }
         else
         {
