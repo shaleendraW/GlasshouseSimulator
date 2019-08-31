@@ -35,8 +35,9 @@ public class ShowvalueScript : MonoBehaviour
 
             activate_sensoreadings.activateBool = true;
             fanRotate_temp.rotatebool = true;
-            
-           
+            activate_distribution.activateBool = true;
+
+
 
         }
         else if (slidervalue == 15)
@@ -48,6 +49,8 @@ public class ShowvalueScript : MonoBehaviour
             setactivate.activateBool = false;
             fanRotate_temp.rotatebool = false;
             activate_sensoreadings.activateBool = false;
+            activate_distribution.activateBool = false;
+
         }
 
     }
