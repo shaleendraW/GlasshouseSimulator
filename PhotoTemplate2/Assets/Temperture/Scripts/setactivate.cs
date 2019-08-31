@@ -25,7 +25,7 @@ public class setactivate : MonoBehaviour
         else
         {
             Heaterpanel.SetActive(false);
-            simulationModel.SetActive(true);
+            simulationModel.SetActive(false);
 
         }
     }
