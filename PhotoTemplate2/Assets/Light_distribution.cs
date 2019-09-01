@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulbActive : MonoBehaviour
+public class Light_distribution : MonoBehaviour
 {
-    public GameObject bulb;
-    public static bool setactivate=false;
+    public Game
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +14,6 @@ public class bulbActive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (setactivate)
-            bulb.SetActive(true);
-        else
-            bulb.SetActive(false);
         
     }
 }
