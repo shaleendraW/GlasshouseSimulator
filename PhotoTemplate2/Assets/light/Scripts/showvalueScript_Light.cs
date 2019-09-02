@@ -6,16 +6,17 @@ using UnityEngine.Experimental.XR;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
 
-public class showvalueScript_temp : MonoBehaviour
+public class showvalueScript_Light : MonoBehaviour
 {
 
     
     public static bool disabled = false;
     public int slidervalue;
+    public int optiumluxlevel=calculate_lux_level.GetOptimumLevel();
+    public int actualResult;
 
 
     Text celciusText;
-
     void Start()
     {
         celciusText = GetComponent<Text>();
@@ -24,26 +25,23 @@ public class showvalueScript_temp : MonoBehaviour
     // Update is called once per frame
     public void textUpdate(float value)
     {
-        slidervalue = Mathf.RoundToInt(value) + 25;
-        celciusText.text = slidervalue + "°c";
+        slidervalue = Mathf.RoundToInt(value);
+        actualResult = slidervalue * 1000 + optiumluxlevel;
+        celciusText.text = actualResult + "lux";
     }
     void Update()
     {
         print(slidervalue);
-        if (slidervalue == 30)
+        if (slidervalue >= 2 )
         {
 
-            activate_sensoreadings.activateBool = true;
+            bulbActive.setactivate = true;
           
 
         }
-        else if (slidervalue == 15)
-        {
-           
-        }
         else
         {
-            activate_sensoreadings.activateBool = false;
+            bulbActive.setactivate = false;
         }
 
     }
