@@ -50,7 +50,7 @@ public class showvalueScript_Light : MonoBehaviour
           
 
         }
-        else
+        else 
         {
             bulbActive.setactivate = false;
         }
