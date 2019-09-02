@@ -23,17 +23,19 @@ public class sliderChange : MonoBehaviour
     void Update()
     {
 
-        if (RHslider > 80)
+        if (RHslider > 90)
         {
             fanRotate.rotatebool = true;
             enableSmoke.enablesmoke = false;
+            smokeFan.enaFanSmoke = true;
             fanRotate.speed = -1500.0f;
 
         }
-        else if(RHslider > 70)
+        else if(RHslider > 80)
         {
             fanRotate.rotatebool = true;
             enableSmoke.enablesmoke = false;
+            smokeFan.enaFanSmoke = true;
             fanRotate.speed = -1000.0f;
         }
         else if (RHslider > 60)
@@ -46,11 +48,13 @@ public class sliderChange : MonoBehaviour
         {
             enableSmoke.enablesmoke = true;
             fanRotate.speed = -50.0f;
+            smokeFan.enaFanSmoke = false;
         }
         else
         {
             fanRotate.rotatebool = false;
             enableSmoke.enablesmoke = false;
+            smokeFan.enaFanSmoke = false;
         }
     }
 }
