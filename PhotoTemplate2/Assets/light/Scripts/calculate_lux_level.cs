@@ -25,6 +25,8 @@ public class calculate_lux_level : MonoBehaviour
         optimum_lux.text = TOMATO_OPTIMUM_LUX_LEVEL.ToString() + " lux";
         num_of_bulb.text = (TOMATO_OPTIMUM_LUX_LEVEL / BULB_LUX_LEVEL).ToString()+" bulbs";
         IsclickTomato = true;
+        Isclickstawberry = false;
+        Isclicklettues = false;
     }
 
     public void setStrawberryOptimumluxlevel()
@@ -34,6 +36,8 @@ public class calculate_lux_level : MonoBehaviour
         optimum_lux.text = STRAWBERRY_OPTIMUM_LUX_LEVEL.ToString() + " lux";
         num_of_bulb.text = (STRAWBERRY_OPTIMUM_LUX_LEVEL / BULB_LUX_LEVEL).ToString() + " bulbs";
         Isclickstawberry = true;
+        IsclickTomato = false;
+        Isclicklettues = false;
 
     }
 
@@ -42,6 +46,8 @@ public class calculate_lux_level : MonoBehaviour
         optimum_lux.text = LETTUCE_OPTIMUM_LUX_LEVEL.ToString() + " lux";
         num_of_bulb.text = (LETTUCE_OPTIMUM_LUX_LEVEL / BULB_LUX_LEVEL).ToString() + " bulbs";
         Isclicklettues = true;
+        Isclickstawberry = false;
+        IsclickTomato = false;
 
     }
 

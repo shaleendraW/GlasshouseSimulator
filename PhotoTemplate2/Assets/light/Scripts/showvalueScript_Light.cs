@@ -12,21 +12,32 @@ public class showvalueScript_Light : MonoBehaviour
     
     public static bool disabled = false;
     public int slidervalue;
-    public int optiumluxlevel=calculate_lux_level.GetOptimumLevel();
+    public int optiumluxlevel;
     public int actualResult;
+    string luxVal;
 
 
     Text celciusText;
     void Start()
     {
+        luxVal = calculate_lux_level.GetOptimumLevel().ToString();
         celciusText = GetComponent<Text>();
+        celciusText.text = luxVal+"lux";
+        print("-----------");
 
     }
+
+    public void changeTextValue() {
+        luxVal = calculate_lux_level.GetOptimumLevel().ToString();
+        celciusText.text = luxVal+"lux";
+    }
+
     // Update is called once per frame
     public void textUpdate(float value)
     {
+
         slidervalue = Mathf.RoundToInt(value);
-        actualResult = slidervalue * 1000 + optiumluxlevel;
+        actualResult = slidervalue * 1000 + calculate_lux_level.GetOptimumLevel();
         celciusText.text = actualResult + "lux";
     }
     void Update()
