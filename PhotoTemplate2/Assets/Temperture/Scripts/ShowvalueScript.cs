@@ -54,6 +54,8 @@ public class ShowvalueScript : MonoBehaviour
             fanRotate_temp.rotatebool = false;
             activate_sensoreadings.activateBool = false;
             activate_distribution.activateBool = false;
+            activate_Colorpalet.activateheatercolourpallet = false;
+            activate_Colorpalet.activatefancolourpallet = false;
 
         }
 
