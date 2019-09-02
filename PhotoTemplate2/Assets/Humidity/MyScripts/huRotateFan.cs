@@ -14,6 +14,6 @@ public class huRotateFan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(spinspeed * Time.deltaTime, 0 , spinspeed * Time.deltaTime);
+        transform.Rotate(0,0, spinspeed * Time.deltaTime);
     }
 }
