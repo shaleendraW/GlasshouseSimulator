@@ -33,21 +33,30 @@ public class ShowvalueScript : MonoBehaviour
         if (slidervalue == 30)
         {
 
-            activate_sensoreadings.activateBool = true;
+            //activate_sensoreadings.activateBool = true;
             fanRotate_temp.rotatebool = true;
-            
-           
+            activate_distribution.activateBool = true;
+            activate_Colorpalet.activatefancolourpallet = true;
+            activate_Colorpalet.activateheatercolourpallet = false;
+
+
 
         }
         else if (slidervalue == 15)
         {
             setactivate.activateBool = true;
+            activate_Colorpalet.activateheatercolourpallet = true;
+            activate_Colorpalet.activatefancolourpallet = false;
         }
         else
         {
             setactivate.activateBool = false;
             fanRotate_temp.rotatebool = false;
             activate_sensoreadings.activateBool = false;
+            activate_distribution.activateBool = false;
+            activate_Colorpalet.activateheatercolourpallet = false;
+            activate_Colorpalet.activatefancolourpallet = false;
+
         }
 
     }
