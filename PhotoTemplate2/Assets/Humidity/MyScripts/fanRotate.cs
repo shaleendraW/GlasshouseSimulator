@@ -18,6 +18,8 @@ public class fanRotate : MonoBehaviour
     {
         spinspeed = speed;
         if (rotatebool)
-        transform.Rotate(0, spinspeed * Time.deltaTime, 0);
+            transform.Rotate(0, 0, spinspeed * Time.deltaTime);
+        else
+            transform.Rotate(0, 0, -1 * Time.deltaTime);
     }
 }
