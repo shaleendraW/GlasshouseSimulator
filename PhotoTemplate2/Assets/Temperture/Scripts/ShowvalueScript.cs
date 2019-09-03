@@ -12,25 +12,37 @@ public class ShowvalueScript : MonoBehaviour
     
     public static bool disabled = false;
     public int slidervalue;
+    string celciusvalue="";
+    public int actualResult;
 
 
     Text celciusText;
 
-    void Start()
+    void Start() 
     {
-        celciusText = GetComponent<Text>();
 
+        celciusvalue = Set_Temp_optimum_level.GetOptimumLevel().ToString();
+        celciusText = GetComponent<Text>();
+        celciusText.text = celciusvalue + "°c";
+    }
+
+
+    public void changeTempTextValue()
+    {
+        celciusvalue = Set_Temp_optimum_level.GetOptimumLevel().ToString();
+        celciusText.text = celciusvalue + " °c";
     }
     // Update is called once per frame
     public void textUpdate(float value)
     {
-        slidervalue = Mathf.RoundToInt(value) + 25;
-        celciusText.text = slidervalue + "°c";
+        slidervalue = Mathf.RoundToInt(value);
+        actualResult = slidervalue + Set_Temp_optimum_level.GetOptimumLevel();
+        celciusText.text = actualResult + " °c";
     }
     void Update()
     {
         print(slidervalue);
-        if (slidervalue == 30)
+        if (slidervalue>1)
         {
 
             //activate_sensoreadings.activateBool = true;
@@ -42,7 +54,7 @@ public class ShowvalueScript : MonoBehaviour
 
 
         }
-        else if (slidervalue == 15)
+        else if (slidervalue<-1)
         {
             setactivate.activateBool = true;
             activate_Colorpalet.activateheatercolourpallet = true;

@@ -45,14 +45,16 @@ public class showvalueScript_Light : MonoBehaviour
         print(slidervalue);
         if (slidervalue >= 2 )
         {
-
+            Activate_colour_pallet_light.activatelightcolourpallet = true;
             bulbActive.setactivate = true;
+            
           
 
         }
-        else
+        else 
         {
             bulbActive.setactivate = false;
+            Activate_colour_pallet_light.activatelightcolourpallet = false;
         }
 
     }
