@@ -18,11 +18,12 @@ public class sliderChange : MonoBehaviour
     {
         RHslider = speed;
         humidtydisplay.text = speed + "RH%";
+
        
     }
     void Update()
     {
-
+        humidity_calculate.RHslider = RHslider;
         if (RHslider > 90)
         {
             fanRotate.rotatebool = true;
