@@ -2168,7 +2168,6 @@ MonoBehaviour:
   hight: {fileID: 1537981213}
   result: {fileID: 1630882729}
   waterfall: {fileID: 555084468}
-  RHslider: 50
 --- !u!1 &484329762
 GameObject:
   m_ObjectHideFlags: 0
