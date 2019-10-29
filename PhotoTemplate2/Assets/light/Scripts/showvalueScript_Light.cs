@@ -43,7 +43,7 @@ public class showvalueScript_Light : MonoBehaviour
     void Update()
     {
         print(slidervalue);
-        if (slidervalue >= 2 )
+        if (slidervalue <= -2 )
         {
             Activate_colour_pallet_light.activatelightcolourpallet = true;
             bulbActive.setactivate = true;

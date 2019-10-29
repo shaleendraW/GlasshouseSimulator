@@ -9,6 +9,11 @@ public class bulbActive : MonoBehaviour
     public GameObject gameobject_plane;
     public GameObject gameobject_spotlight;
     public static bool setactivate=false;
+
+    public void Setsetactivate()
+    {
+        setactivate = false;
+    }
     // Start is called before the first frame update
     void Start()
     {
