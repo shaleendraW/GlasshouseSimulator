@@ -7,6 +7,11 @@ public class Activate_colour_pallet_light : MonoBehaviour
     public GameObject Colorpaletlight;
     public static bool activatelightcolourpallet = false;
     // Start is called before the first frame update
+
+    public void set_value_activatelightcolourpallet()
+    {
+        activatelightcolourpallet = false;
+    }
     void Start()
     {
         
@@ -15,15 +20,20 @@ public class Activate_colour_pallet_light : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (activatelightcolourpallet)
+        try {
+            if (activatelightcolourpallet)
 
-            Colorpaletlight.SetActive(true);
+                Colorpaletlight.SetActive(true);
 
-        else
+            else
 
-            Colorpaletlight.SetActive(false);
-            
-        
+                Colorpaletlight.SetActive(false);
+
+            }
+        catch (System.Exception e)
+        {
+
+        }
 
     }
 }

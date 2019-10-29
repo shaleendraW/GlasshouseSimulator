@@ -14,22 +14,23 @@ public class showvalueScript_Light : MonoBehaviour
     public int slidervalue;
     public int optiumluxlevel;
     public int actualResult;
-    string luxVal;
+    string luxVal="";
 
 
-    Text celciusText;
+    Text LuxText;
     void Start()
     {
         luxVal = calculate_lux_level.GetOptimumLevel().ToString();
-        celciusText = GetComponent<Text>();
-        celciusText.text = luxVal+"lux";
+        LuxText = GetComponent<Text>();
+        LuxText.text = luxVal+"lux";
         print("-----------");
 
     }
 
     public void changeTextValue() {
         luxVal = calculate_lux_level.GetOptimumLevel().ToString();
-        celciusText.text = luxVal+"lux";
+        //LuxText.text = luxVal+"lux";
+       
     }
 
     // Update is called once per frame
@@ -38,7 +39,7 @@ public class showvalueScript_Light : MonoBehaviour
 
         slidervalue = Mathf.RoundToInt(value);
         actualResult = slidervalue * 1000 + calculate_lux_level.GetOptimumLevel();
-        celciusText.text = actualResult + "lux";
+        LuxText.text = actualResult + "lux";
     }
     void Update()
     {
@@ -48,6 +49,7 @@ public class showvalueScript_Light : MonoBehaviour
             Activate_colour_pallet_light.activatelightcolourpallet = true;
             bulbActive.setactivate = true;
             
+            
           
 
         }
@@ -55,6 +57,7 @@ public class showvalueScript_Light : MonoBehaviour
         {
             bulbActive.setactivate = false;
             Activate_colour_pallet_light.activatelightcolourpallet = false;
+            
         }
 
     }
