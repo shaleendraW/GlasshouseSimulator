@@ -6,6 +6,11 @@ public class Activate_colour_pallet_light : MonoBehaviour
 {
     public GameObject Colorpaletlight;
     public static bool activatelightcolourpallet = false;
+
+    public void setactivatelightcolourpallet()
+    {
+        activatelightcolourpallet = false;
+    }
     // Start is called before the first frame update
     void Start()
     {
