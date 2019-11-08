@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -501,7 +501,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColourpaletFan: {fileID: 1341193761}
+  ColourpaletFan1: {fileID: 0}
   ColourpaletHeater: {fileID: 2122852404}
+  ColourpaletHeater1: {fileID: 0}
 --- !u!1001 &205962578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5714,7 +5716,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ColourpaletFan: {fileID: 1341193761}
+  ColourpaletFan1: {fileID: 0}
   ColourpaletHeater: {fileID: 2122852404}
+  ColourpaletHeater1: {fileID: 0}
 --- !u!4 &1606375554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6520785263011381438, guid: 2b2bd1ef24ac31c4da22a53c4becfcaa,
@@ -7032,6 +7036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FanColourPallet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4141221357211599897, guid: 9b076052207dbad438a8cb8b9e41d6fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4141221357211599898, guid: 9b076052207dbad438a8cb8b9e41d6fa,
         type: 3}
