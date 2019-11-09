@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class activate_Colorpalet : MonoBehaviour
 {
-    public GameObject ColourpaletFan, ColourpaletHeater;
+    public GameObject ColourpaletFan,ColourpaletFan1, ColourpaletHeater, ColourpaletHeater1;
     public static bool activatefancolourpallet = false;
     public static bool activateheatercolourpallet = false;
     // Start is called before the first frame update
@@ -17,14 +17,17 @@ public class activate_Colorpalet : MonoBehaviour
     void Update()
     {
         if (activatefancolourpallet)
-        
+        {
             ColourpaletFan.SetActive(true);
-           
-        
-        else if(activateheatercolourpallet)
+            ColourpaletFan1.SetActive(true);
 
+        }
+        else if (activateheatercolourpallet)
+        {
             ColourpaletHeater.SetActive(true);
+            ColourpaletHeater1.SetActive(true);
 
+        }
         else
         {
             ColourpaletFan.SetActive(false);

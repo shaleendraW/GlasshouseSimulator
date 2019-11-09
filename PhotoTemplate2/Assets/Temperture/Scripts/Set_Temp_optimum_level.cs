@@ -56,6 +56,6 @@ public class Set_Temp_optimum_level : MonoBehaviour
         else if (Isclickcabbage)
             return CABBAGE_OPTIMUM_TEMP_LEVEL;
         else
-            return 0;
+            return 20;
     }
 }
