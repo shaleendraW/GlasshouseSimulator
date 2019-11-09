@@ -3304,16 +3304,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1981969036}
     m_Modifications:
-    - target: {fileID: 6408888706641631575, guid: d9761b1fbee2df048afc6e093035c3f3,
-        type: 3}
-      propertyPath: m_Name
-      value: Slider_humidity
-      objectReference: {fileID: 0}
-    - target: {fileID: 6408888706641631575, guid: d9761b1fbee2df048afc6e093035c3f3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6408888706641631574, guid: d9761b1fbee2df048afc6e093035c3f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3377,7 +3367,7 @@ PrefabInstance:
     - target: {fileID: 6408888706641631574, guid: d9761b1fbee2df048afc6e093035c3f3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -149
+      value: -242
       objectReference: {fileID: 0}
     - target: {fileID: 6408888706641631574, guid: d9761b1fbee2df048afc6e093035c3f3,
         type: 3}
@@ -3418,6 +3408,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408888706641631575, guid: d9761b1fbee2df048afc6e093035c3f3,
+        type: 3}
+      propertyPath: m_Name
+      value: Slider_humidity
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408888706641631575, guid: d9761b1fbee2df048afc6e093035c3f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6408888707000905062, guid: d9761b1fbee2df048afc6e093035c3f3,
         type: 3}
