@@ -3,7 +3,15 @@ guid: c9f88a2466b54bd4ebf82ecd497261f5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ColourpaletFan: {fileID: 4141221357211599897, guid: 9b076052207dbad438a8cb8b9e41d6fa,
+      type: 3}
+  - ColourpaletFan1: {fileID: 2089316810962077649, guid: 57218ab559b78ba4b95790d567404109,
+      type: 3}
+  - ColourpaletHeater: {fileID: 8728427325990498228, guid: 5fd0a0fd832ad414ba68b95fe0cd1183,
+      type: 3}
+  - ColourpaletHeater1: {fileID: 7659319804045745766, guid: f3c8b8e5313ae064eae55d79ccade894,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

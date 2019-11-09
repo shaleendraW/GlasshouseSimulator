@@ -60,6 +60,6 @@ public class calculate_lux_level : MonoBehaviour
         else if (Isclicklettues)
             return LETTUCE_OPTIMUM_LUX_LEVEL;
         else
-            return 0;
+            return 15000;
     }
 }
