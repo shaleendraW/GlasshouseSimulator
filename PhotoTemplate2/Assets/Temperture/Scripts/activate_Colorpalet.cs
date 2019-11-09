@@ -32,6 +32,8 @@ public class activate_Colorpalet : MonoBehaviour
         {
             ColourpaletFan.SetActive(false);
             ColourpaletHeater.SetActive(false);
+            ColourpaletFan1.SetActive(false);
+            ColourpaletHeater1.SetActive(false);
         }
     }
 }
