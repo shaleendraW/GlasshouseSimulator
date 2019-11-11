@@ -4,9 +4,34 @@ using UnityEngine;
 
 public class activate_Colorpalet : MonoBehaviour
 {
-    public GameObject ColourpaletFan,ColourpaletFan1, ColourpaletHeater, ColourpaletHeater1;
+    public GameObject ColourpaletFanCucumber, ColourpaletFanCarrot, ColourpaletFanCabbage, ColourpaletHeaterCucumber, ColourpaletHeaterCarrot, ColourpaletHeaterCabbage;
     public static bool activatefancolourpallet = false;
     public static bool activateheatercolourpallet = false;
+
+    public static bool Isclickcarrot = false;
+    public static bool Isclickcucumber = false;
+    public static bool Isclickcabbage = false;
+
+    public void SetIsclickCucumber()
+    {
+        Isclickcarrot = false;
+        Isclickcucumber = true;
+        Isclickcabbage = false;
+    }
+
+    public void SetIsclickCarrot()
+    {
+        Isclickcarrot = true;
+        Isclickcucumber = false;
+        Isclickcabbage = false;
+    }
+
+    public void SetIsclickCabbage()
+    {
+        Isclickcarrot = false;
+        Isclickcucumber = false;
+        Isclickcabbage = true;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -18,22 +43,37 @@ public class activate_Colorpalet : MonoBehaviour
     {
         if (activatefancolourpallet)
         {
-            ColourpaletFan.SetActive(true);
-            ColourpaletFan1.SetActive(true);
+            if(Isclickcucumber)
+                ColourpaletFanCucumber.SetActive(true);
+            else if(Isclickcarrot)
+                ColourpaletFanCarrot.SetActive(true);
+            else if(Isclickcabbage)
+                ColourpaletFanCabbage.SetActive(true);
 
+          
+        
         }
         else if (activateheatercolourpallet)
         {
-            ColourpaletHeater.SetActive(true);
-            ColourpaletHeater1.SetActive(true);
+            if (Isclickcucumber)
+                ColourpaletHeaterCucumber.SetActive(true);
+            else if (Isclickcarrot)
+                ColourpaletHeaterCarrot.SetActive(true);
+            else if (Isclickcabbage)
+                ColourpaletHeaterCabbage.SetActive(true);
+            
+          
 
         }
         else
         {
-            ColourpaletFan.SetActive(false);
-            ColourpaletHeater.SetActive(false);
-            ColourpaletFan1.SetActive(false);
-            ColourpaletHeater1.SetActive(false);
+            ColourpaletFanCucumber.SetActive(false);
+            ColourpaletFanCarrot.SetActive(false);
+            ColourpaletFanCabbage.SetActive(false);
+            ColourpaletHeaterCucumber.SetActive(false);
+            ColourpaletHeaterCarrot.SetActive(false);
+            ColourpaletHeaterCabbage.SetActive(false);
+           
         }
     }
 }

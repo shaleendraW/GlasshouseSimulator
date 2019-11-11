@@ -50,6 +50,8 @@ public class ShowvalueScript : MonoBehaviour
             activate_distribution.activateBool = true;
             activate_Colorpalet.activatefancolourpallet = true;
             activate_Colorpalet.activateheatercolourpallet = false;
+            activate_Colorpalet1.activatefancolourpallet = true;
+            activate_Colorpalet1.activateheatercolourpallet = false;
 
 
 
@@ -59,6 +61,8 @@ public class ShowvalueScript : MonoBehaviour
             setactivate.activateBool = true;
             activate_Colorpalet.activateheatercolourpallet = true;
             activate_Colorpalet.activatefancolourpallet = false;
+            activate_Colorpalet1.activatefancolourpallet = false;
+            activate_Colorpalet1.activateheatercolourpallet = true;
         }
         else
         {
@@ -68,6 +72,8 @@ public class ShowvalueScript : MonoBehaviour
             activate_distribution.activateBool = false;
             activate_Colorpalet.activateheatercolourpallet = false;
             activate_Colorpalet.activatefancolourpallet = false;
+            activate_Colorpalet1.activateheatercolourpallet = false;
+            activate_Colorpalet1.activatefancolourpallet = false;
 
         }
 

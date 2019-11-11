@@ -331,12 +331,6 @@ Transform:
   m_Father: {fileID: 2110145902}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &13054680 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2089316810962077649, guid: 57218ab559b78ba4b95790d567404109,
-    type: 3}
-  m_PrefabInstance: {fileID: 2703897501627183906}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &17273235
 GameObject:
   m_ObjectHideFlags: 0
@@ -6078,12 +6072,6 @@ Transform:
   m_Father: {fileID: 1559589530}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &299697938 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7659319804045745766, guid: f3c8b8e5313ae064eae55d79ccade894,
-    type: 3}
-  m_PrefabInstance: {fileID: 1399146892827370638}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &302422545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23722,15 +23710,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1497652510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9f88a2466b54bd4ebf82ecd497261f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 20a8364817c73ec4ebca00d19dd9e1b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColourpaletFan: {fileID: 4141221357211599897, guid: 9b076052207dbad438a8cb8b9e41d6fa,
+  ColourpaletFan1: {fileID: 2089316810962077649, guid: 57218ab559b78ba4b95790d567404109,
     type: 3}
-  ColourpaletFan1: {fileID: 13054680}
-  ColourpaletHeater: {fileID: 8728427325990498228, guid: 5fd0a0fd832ad414ba68b95fe0cd1183,
+  ColourpaletHeater1: {fileID: 7659319804045745766, guid: f3c8b8e5313ae064eae55d79ccade894,
     type: 3}
-  ColourpaletHeater1: {fileID: 299697938}
 --- !u!114 &1497652514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29448,15 +29434,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005494041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9f88a2466b54bd4ebf82ecd497261f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 20a8364817c73ec4ebca00d19dd9e1b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColourpaletFan: {fileID: 4141221357211599897, guid: 9b076052207dbad438a8cb8b9e41d6fa,
+  ColourpaletFan1: {fileID: 2089316810962077649, guid: 57218ab559b78ba4b95790d567404109,
     type: 3}
-  ColourpaletFan1: {fileID: 13054680}
-  ColourpaletHeater: {fileID: 8728427325990498228, guid: 5fd0a0fd832ad414ba68b95fe0cd1183,
+  ColourpaletHeater1: {fileID: 7659319804045745766, guid: f3c8b8e5313ae064eae55d79ccade894,
     type: 3}
-  ColourpaletHeater1: {fileID: 299697938}
 --- !u!114 &2005494045
 MonoBehaviour:
   m_ObjectHideFlags: 0
