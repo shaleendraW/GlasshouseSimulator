@@ -9,6 +9,7 @@ public class simulate_menue1 : MonoBehaviour
     public void changeScene(string sceneName)
     {
         Application.LoadLevel(sceneName);
+        print("adalei manika ummmmma");
     }
 
 }
