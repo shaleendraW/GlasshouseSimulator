@@ -26,7 +26,7 @@ public class ButtonController : MonoBehaviour {
 
             if(allButtons[i]!=button){
 
-                allButtons[i].GetComponent<Image>().color = new Color32(255,255,255,155);
+                allButtons[i].GetComponent<Image>().color = new Color32(255,255,255,90);
             }else{
                 allButtons[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             }
