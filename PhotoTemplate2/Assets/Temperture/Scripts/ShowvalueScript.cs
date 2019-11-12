@@ -63,6 +63,9 @@ public class ShowvalueScript : MonoBehaviour
             activate_Colorpalet.activatefancolourpallet = false;
             activate_Colorpalet1.activatefancolourpallet = false;
             activate_Colorpalet1.activateheatercolourpallet = true;
+            print("done baby");
+
+
         }
         else
         {
